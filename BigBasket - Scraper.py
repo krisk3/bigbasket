@@ -79,4 +79,4 @@ for cat_link in cat_links:
         data_dict['Out of Stock ?'] = "No"
         data.append(data_dict)
 df = pd.DataFrame(data)
-df.to_csv('BigBasket.xls', index=False)
+df.to_csv('BigBasket.xlsx', index=False)
